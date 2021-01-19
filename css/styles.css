@@ -1,0 +1,217 @@
+
+/* BODY GENERAL */
+
+body{
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+    background-size: cover;
+    margin: 0;
+    color: #ffffff;
+    text-shadow: black 0.5px 0.5px 0.8px;
+
+}
+h1{
+    font-size: 4.5rem;
+    margin-top: 12rem; 
+    text-shadow: rgb(1, 53, 17) 3px 2px 4px; 
+}
+h2{
+    margin-top: 10rem;    
+}
+p{
+    font-size: 1.15rem;
+}
+::selection{
+    background-color: honeydew;
+}
+
+
+/* NAVBAR */
+
+.navbar{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 0.5rem 2rem 0.5rem 1rem;
+    z-index: 3;
+    text-shadow: black 0.5px 0.5px;
+}
+.logo{
+    width: 4.6rem;
+}
+
+/* NAVBAR ENDS */
+
+/* PAGE CNTENT */
+
+
+
+span{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.coconutimg{
+    width: 8.5rem;
+    margin: -6rem -2rem auto -4rem;
+    /* margin:  0;
+    padding: 0  ; */
+    /* position: absolute;
+    left: 37.3rem;
+    top: 7.3rem; */
+}
+
+
+/* CAROUSEL IN HOME PAGE */
+.carousel{
+    width: 70%;
+    position: relative;
+    
+    left: 15%;
+    right: 15%;
+}
+.d-block{
+    /* margin-top: ; */
+    height: 14rem;
+    width: 1rem;
+}
+.carousel h4{
+    color: black;
+    text-shadow: black 0 0;
+    }
+/* CAROUSEL ENDS */
+
+/* HOME PAGE ENDS */
+
+
+/* SIGNUP PAGE */
+
+.signupform{
+    margin: 2% 8rem 0 30%;
+}
+.signupbtn{
+    position: relative;
+    right: 9rem;
+    top: 1rem;
+}
+
+/* LOGIN PAGE */
+
+label{
+    color: #ffffff;
+    font-size: 1rem;
+    text-shadow: black -1px -1px 2px;
+}
+.loginhead{
+    font-size: 2rem;
+    
+}
+.loginform{
+    margin: 2% 8rem 0 36.5%;
+}
+.loginbtn{
+    position: relative;
+    right: 12rem;
+    top: 2rem;
+}
+
+/* DISTRICT PAGE STARTS */
+
+/* DISTRICT PAGE BACKGROUND */
+#grad {
+   background-size:100%; 
+   background-position:top;
+   /* background-repeat: space;
+   background-color:#6ce0aa; */
+  }
+.districtpage{
+    width: 100%;
+    height: 100%;
+    /* margin:  0 0 0; */
+    background-image: linear-gradient(#6ce0aa,#74c7b8,#8ee9e3,#88e6df,#74c7b8,#32dd8d,#6ce0aa);      
+}
+
+/* DISTRICT PAGE INTRO SECTION */
+.districtpage h4{
+    color: rgb(10, 87, 61);
+}
+
+
+/* DISTRICT PAGE DETAILED CONTENT SECTION */
+.districtheader .container{
+    border: none;
+    box-shadow: none;    
+}
+.container{
+    padding: 2.5rem;
+    width: 40%;
+    border-color: #ffffff ;
+    box-shadow: rgb(5, 116, 97) -8px 2px 17px;
+    animation-duration: 3s;
+  animation-name: slidein;
+}
+.districtrow{    
+    margin: 5rem 0 5rem 0;
+}
+.districtrow h2{
+    margin: auto;
+}
+.districtimgright{
+    margin: 7rem 5rem auto 0;
+    padding: 0;
+    position: relative;
+    bottom: 1rem;
+    width: 21rem;
+    height: 14rem;
+    z-index: 2;
+    border: black solid 1rem;
+    border-radius: 4px;
+    transform: rotate(20deg);
+}
+.districtimgleft{
+    margin: 7rem 0 auto 5rem;
+    padding: 0;
+    position: relative;
+    width: 21rem;
+    height: 14rem;
+    bottom: 1rem;
+    z-index: 2;
+    border: black solid 1rem;
+    border-radius: 4px;
+    transform: rotate(-20deg);
+}
+.frameright{
+    position: absolute;
+    height: 28rem;
+    width: 30rem;
+    right: 0;    
+}
+.frameleft{
+    position: absolute;
+    height: 28rem;
+    width: 30rem;
+    left: 0;    
+}
+.sectionbreak{
+    width: 25rem;
+   height: 8rem;
+}
+.row p{
+    color: rgb(31, 126, 90);
+}
+
+/* DISTRICT PAGE ENDS */
+
+/* INDIVIDUAL DISTRICT PAGES */
+.districtheader h5{
+    color: white;
+    text-shadow: black -4px -2px 7px;
+}
+.districtheader.container{
+    border: none;
+    box-shadow: none; 
+}
+/* INDIVIDUAL DISTRICT PAGES */
+
