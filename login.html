@@ -56,18 +56,22 @@
 <!-- NAVBAR ENDS -->
 
 <!-- PAGECONTENT STARTS -->
-          <h2 class="loginhead">LOG IN</h2>
-          <form class="loginform">
+           <h2 class="loginhead">LOG IN</h2>
+          <form action="./index.html" class="loginform" onsubmit="return validate();" required>
             <div class="form-group col-lg-6">
               <label for="exampleInputEmail1">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                </div>
+              <input  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <br>
+              <label id="emailerror" for="emailerror"></label>              
+            </div>
             <div class="form-group col-lg-6">
               <label for="exampleInputPassword1">Password</label>
               <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-            </div>
-            
+              <br>
+              <label id= "pwderror" for="pwderror"></label>
+            </div>            
             <button type="submit" class="loginbtn btn btn-primary">Submit</button>
           </form>
 <!-- PAGE CONTENT ENDS -->
+<script src="./index.js"></script>
           </body>
